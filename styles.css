@@ -1,0 +1,71 @@
+body{
+    background-color: rgb(0, 0, 0);
+}
+.post {
+    background-color: white;
+    width: 500px;
+    margin: auto;
+    font-family: "Roboto", sans-serif;
+
+}
+
+.post-header {
+    display: flex;
+    align-items: center;
+}
+
+.fa-brands.fa-square-instagram {
+    margin-left: 20px;
+    margin-right: 10px;
+    font-size: 40px;
+}
+
+.escuela {
+    margin-bottom: 0;
+    font-weight: bold;
+}
+.usuario {
+    margin-top: 0;
+}
+
+.fa-solid.fa-ellipsis-vertical {
+    margin-right: 20px;
+    margin-left:auto;
+}
+
+.post-image {
+    background-color: white;
+    text-align: center;
+
+}
+.post-image img {
+    max-width: 100%;
+    height: auto; 
+    display: block;
+    margin: auto;
+}
+
+.post-body {
+    background-color: white;
+    text-align:justify;
+    padding: 16px;
+    font-size: 16px;
+    color: #333;
+}
+
+.iconos{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+.fa-solid.fa-heart{
+    color: rgb(189, 88, 105);
+}
+
+.zona-like {
+    display: flex; 
+}
+.usuarios-like {
+    font-weight: bold;
+}
